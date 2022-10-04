@@ -3,6 +3,7 @@ let numberOfTouches ;
 function setup() {
   createCanvas(400, 400);
   textAlign(CENTER);
+  imagesMode (CENTER) ;
 }
 
 function draw() {

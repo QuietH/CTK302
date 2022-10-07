@@ -14,26 +14,26 @@ function setup() {
 function draw() {
   clear();
   numberOfTouches = touches.length;
-  text(numberOfTouches + ' touches', width/2, 70);
+  text(numberOfTouches + ' touches', 160, 70);
 
   switch(numberOfTouches) {
     case 0: 
-      text("Thank God,\nNo one is here.", width/2, 90) ; 
-      image(i1, width/2, height/2, 100, 100);
+      text("Thank God,\nNo one is here.", 160, 90) ; 
+      image(i2, width/2, height/2, 100, 100);
       break ;
 
       case 1: 
-       text("Can you leave\nme alone?", width/2, 90) ; 
-       image(i2, width/2, height/2, 100, 100);
+       text("Can you leave\nme alone?", 160, 90) ; 
+       image(i1, width/2, height/2, 100, 100);
       break ;
 
       case 2:
-      text("Please don't\ndo this.", width/2, 90) ; 
+      text("Please don't\ndo this.", 160, 90) ; 
       image(i3, width/2, height/2, 100, 100);
       break ;
 
       case 3:
-     text("This is the\nworst day of my life.", width/2, 90) ; 
+     text("This is the\nworst day of my life.", 160, 90) ; 
      image(i4, width/2, height/2, 100, 100);
       break ;
 

@@ -7,20 +7,19 @@ function setup() {
 }
 
 function draw() {
-
-
-
   switch(state){
     case 0 :
-      background("purple");
-      text("What do agnostics say after you say 'God bless you'?", width / 2, height / 2);
+      textSize(30);
+      background("#837EE5");
+      text("An apartment complex?", width / 2, height / 2);
       break;
 
     case 1:
-      background("green");
-      text("'Maybe'", width / 2, height / 2);
+      textSize(30);
+      background("black");
+      fill("white");
+      text("I actually find them quite simple.", width / 2, height / 2);
       break;
-
   }
 
   rect(100, 100, 100, 100);

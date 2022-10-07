@@ -11,13 +11,16 @@ function draw() {
 
   switch(state){
     case 0 :
-      background("purple");
-      text("start of the punchline lol", width / 2, height / 2);
+      background("black");
+      fill("white");
+      textSize(25);
+      text("Why did I speed past a stop sign?", width / 2, height / 2);
       break;
 
     case 1:
-      background("green");
-      text("punchline LOL", width / 2, height / 2);
+      background("#837EE5");
+      textSize(25);
+      text("I don't believe everything I read.", width / 2, height / 2);
       break;
   }
 

@@ -124,7 +124,7 @@ function draw() {
       push();
       fill(fade3);
       textFont(f1, 30);
-      text("Click to Begin", 300, 500 );
+      text("Click to Begin", 305, 500 );
       pop();
 
       if (fade3 < 255) fade3 ++;

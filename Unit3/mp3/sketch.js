@@ -63,7 +63,7 @@ function setup() {
 
   // Spawn objects
 
-  for (let i = 0 ; i < 2 ; i++) {
+  for (let i = 0 ; i < 40 ; i++) {
     cars.push(new Car()) ;
   }
   

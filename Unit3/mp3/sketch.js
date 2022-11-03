@@ -96,6 +96,9 @@ function draw() {
       if (s5.isPlaying()){
         s5.stop();
       }
+      if (s4.isPlaying()){
+        s4.stop();
+      }
       no.hide();
       cat.hide();
       neco.hide();

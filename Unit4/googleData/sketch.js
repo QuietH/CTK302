@@ -1,10 +1,19 @@
 var bubbles = [];
 let url = "";
 let f1;
-
+let goo;
 // https://docs.google.com/spreadsheets/d/1FjVAYOThyQLVZVJS2GXSwErWBZUjHDK-CEURjkfvOng/edit?resourcekey#gid=1331495145
 
 // https://forms.gle/tfuKNrtZtVzRKxUu7
+
+let song ;
+
+function preload() {
+  song = loadSound("assets/mozart.mp3");
+}
+
+
+
 
 function setup() {
   
@@ -20,6 +29,8 @@ function setup() {
   textAlign(CENTER);
   ellipseMode(CENTER);
   rectMode(CENTER);
+  song.play();
+  goo = loadImage("assets/goo.png");
 }
 
 // The data comes back as an array of objects
@@ -73,6 +84,7 @@ class Bubble {
     stroke(this.r, this.g, this.b); 
     fill("black");
     ellipse(this.pos.x, this.pos.y+25, 120, 120);
+    image(goo, this.pos.x+ random(-30, 10), this.pos.y+50, 30, 30);
     fill("white");
     textFont(f1);
     text(

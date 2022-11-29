@@ -62,7 +62,7 @@ function draw() {
   // Text that makes CTK type in the background
   fill('white');
   noStroke();
-  textSize(300);
+  textSize(100);
   textFont(f1, 300);
   textAlign(CENTER);
   text("monster", width / 2, height / 2);
